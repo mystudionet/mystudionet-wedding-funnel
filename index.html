@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Wedding Films by Kursad Yonet · Mystudionet Productions — Long Island, NY</title>
+  <meta name="description" content="Cinematic wedding films for Long Island brides. Preserve your story as the film it deserves. Limited dates available — starting at $2,400. Book your free consultation today.">
+  <link rel="canonical" href="https://wedding.mystudionet.com/">
+
+  <!-- Open Graph / Meta Ads -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wedding.mystudionet.com/">
+  <meta property="og:title" content="Wedding Films by Kursad Yonet · Mystudionet Productions">
+  <meta property="og:description" content="Cinematic wedding films for Long Island brides. Limited dates available — starting at $2,400.">
+  <meta property="og:image" content="https://wedding.mystudionet.com/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="Mystudionet Productions">
+  <meta property="fb:app_id" content="">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Wedding Films by Kursad Yonet · Mystudionet Productions">
+  <meta name="twitter:description" content="Cinematic wedding films for Long Island brides. Limited dates available — starting at $2,400.">
+  <meta name="twitter:image" content="https://wedding.mystudionet.com/og-image.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream: '#FAFAF8',
+            charcoal: '#1A1A1E',
+            gold: '#C9A96E',
+            'gold-dark': '#A8833F',
+            muted: '#6E6E73',
+            'form-bg': '#F3F1EC',
+          },
+          fontFamily: {
+            serif: ['Playfair Display', 'Georgia', 'serif'],
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background-color: #FAFAF8;
+      color: #1A1A1E;
+      font-family: 'Inter', sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Gold line divider */
+    .gold-line {
+      width: 56px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #C9A96E, transparent);
+    }
+
+    /* 16:9 video wrapper */
+    .video-wrap {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+    }
+    .video-wrap iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      border: 0;
+    }
+
+    /* Form inputs */
+    .field {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      background: #fff;
+      border: 1px solid #DDD9D0;
+      color: #1A1A1E;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.875rem;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+    .field::placeholder { color: #AEAAA0; }
+    .field:focus {
+      outline: none;
+      border-color: #C9A96E;
+      box-shadow: 0 0 0 3px rgba(201,169,110,0.15);
+    }
+
+    /* Select arrow */
+    .select-wrap { position: relative; }
+    .select-wrap::after {
+      content: '▾';
+      position: absolute;
+      right: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #AEAAA0;
+      pointer-events: none;
+      font-size: 0.75rem;
+    }
+
+    /* CTA button */
+    .btn-gold {
+      display: inline-block;
+      background: linear-gradient(135deg, #C9A96E 0%, #A8833F 100%);
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 1rem 2.5rem;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      transition: opacity 0.25s, transform 0.25s, box-shadow 0.25s;
+    }
+    .btn-gold:hover {
+      opacity: 0.92;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 30px rgba(168,131,63,0.35);
+    }
+    .btn-gold:active { transform: translateY(0); }
+    .btn-gold:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    /* FAQ accordion */
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.38s cubic-bezier(0.4,0,0.2,1);
+    }
+    .faq-answer.open { max-height: 400px; }
+    .faq-icon { transition: transform 0.3s ease; }
+    .faq-item.open .faq-icon { transform: rotate(45deg); }
+
+    /* Scroll fade-in */
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.65s ease, transform 0.65s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Success */
+    #success-msg { display: none; }
+    #success-msg.show { display: block; }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #FAFAF8; }
+    ::-webkit-scrollbar-thumb { background: #C9A96E; border-radius: 3px; }
+  </style>
+</head>
+
+<body class="bg-cream">
+
+  <!-- ============================================================
+       HEADER — logo only, sticky, no nav links (keeps traffic on page)
+  ============================================================ -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-cream/95 backdrop-blur-sm border-b border-stone-200/80">
+    <div class="max-w-6xl mx-auto px-5 py-3 flex items-center justify-between">
+      <img src="logo.svg" alt="Mystudionet Productions" class="h-9 w-auto">
+      <a href="#consultation" class="btn-gold hidden md:inline-block" style="padding: 0.6rem 1.5rem; font-size: 0.7rem;">
+        Book Free Consultation
+      </a>
+    </div>
+  </header>
+
+
+  <!-- ============================================================
+       HERO — headline + main video + CTA
+  ============================================================ -->
+  <section class="pt-24 pb-16 px-5 bg-cream">
+    <div class="max-w-3xl mx-auto text-center">
+
+      <p class="text-gold uppercase tracking-[0.22em] text-xs font-medium mb-5">
+        Long Island Wedding Filmmaker
+      </p>
+
+      <h1 class="font-serif text-[2.4rem] md:text-[3.4rem] lg:text-[4rem] text-charcoal leading-[1.15] mb-6">
+        Your Wedding Day Deserves<br>
+        <em class="text-gold">to Be Remembered as a Film</em>
+      </h1>
+
+      <p class="text-muted text-lg md:text-xl font-light leading-relaxed mb-10 max-w-xl mx-auto">
+        Cinematic wedding films for Long Island brides who want more than memories — they want a story worth watching again and again.
+      </p>
+
+      <a href="#consultation" class="btn-gold mb-4">
+        Check My Date Availability
+      </a>
+      <p class="text-muted text-sm mt-3">Films start at $2,400 · Limited dates available in 2025 &amp; 2026</p>
+
+    </div>
+
+    <!-- Main hero video -->
+    <div class="max-w-4xl mx-auto mt-14 rounded-sm overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.18)]">
+      <div style="width:100%; height:0; position:relative; padding-top:42.50%">
+        <iframe
+          style="position:absolute; top:0; left:0; width:100%; height:100%"
+          src="https://adilo.bigcommand.com/watch/zvnAdswf"
+          frameborder="0"
+          allowtransparency="true"
+          allowfullscreen
+          mozallowfullscreen
+          webkitallowfullscreen
+          oallowfullscreen
+          msallowfullscreen
+          scrolling="no">
+        </iframe>
+      </div>
+    </div>
+    <p class="text-center text-muted text-sm mt-4 font-light italic">
+      Press play — this is what your wedding day could look like
+    </p>
+  </section>
+
+
+  <!-- ============================================================
+       TRUST BAR
+  ============================================================ -->
+  <section class="py-12 bg-charcoal">
+    <div class="max-w-5xl mx-auto px-5">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div>
+          <div class="font-serif text-3xl text-gold mb-1">50+</div>
+          <div class="text-stone-400 text-xs uppercase tracking-widest">Weddings Filmed</div>
+        </div>
+        <div>
+          <div class="font-serif text-3xl text-gold mb-1">8+</div>
+          <div class="text-stone-400 text-xs uppercase tracking-widest">Years of Experience</div>
+        </div>
+        <div>
+          <div class="font-serif text-3xl text-gold mb-1">4K</div>
+          <div class="text-stone-400 text-xs uppercase tracking-widest">Cinematic Quality</div>
+        </div>
+        <div>
+          <div class="font-serif text-3xl text-gold mb-1">100%</div>
+          <div class="text-stone-400 text-xs uppercase tracking-widest">5-Star Reviews</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CONSULTATION FORM — qualified lead capture
+  ============================================================ -->
+  <section id="consultation" class="py-20 px-5 bg-form-bg">
+    <div class="max-w-2xl mx-auto">
+
+      <div class="text-center mb-12">
+        <p class="text-gold uppercase tracking-[0.22em] text-xs font-medium mb-4">Free Consultation</p>
+        <h2 class="font-serif text-3xl md:text-4xl text-charcoal mb-4">Tell Us About Your Wedding</h2>
+        <div class="gold-line mx-auto mb-5"></div>
+        <p class="text-muted leading-relaxed">
+          Fill out the form and Kursad will personally reach out within 24 hours to discuss your vision and confirm availability.
+        </p>
+      </div>
+
+      <!-- Success state -->
+      <div id="success-msg" class="text-center bg-white border border-stone-200 px-8 py-12 mb-8">
+        <div class="text-3xl text-gold font-serif mb-3">✓</div>
+        <h3 class="font-serif text-xl text-charcoal mb-2">We Received Your Inquiry!</h3>
+        <p class="text-muted">Kursad will be in touch within 24 hours. Check your inbox — and your spam folder just in case.</p>
+      </div>
+
+      <form
+        id="lead-form"
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        class="space-y-5"
+        novalidate>
+
+        <!--
+          ┌──────────────────────────────────────────────────────────────┐
+          │  Web3Forms setup (free, no backend):                         │
+          │  1. Go to https://web3forms.com                              │
+          │  2. Sign up with turkishtv@gmail.com                         │
+          │  3. Create a form — copy your Access Key                     │
+          │  4. Paste it below in place of REPLACE_WITH_WEB3FORMS_KEY   │
+          └──────────────────────────────────────────────────────────────┘
+        -->
+        <input type="hidden" name="access_key" value="2e7eb787-2842-4a24-830e-d1ebda82c1b1">
+        <input type="hidden" name="subject" value="New Wedding Film Inquiry — Mystudionet Productions">
+        <input type="hidden" name="from_name" value="Mystudionet Funnel">
+        <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off">
+
+        <!-- Row: Name + Email -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div>
+            <label class="block text-xs uppercase tracking-wider text-charcoal font-semibold mb-2">Full Name *</label>
+            <input type="text" name="name" required autocomplete="name" placeholder="Your full name"
+              class="field">
+          </div>
+          <div>
+            <label class="block text-xs uppercase tracking-wider text-charcoal font-semibold mb-2">Email Address *</label>
+            <input type="email" name="email" required autocomplete="email" placeholder="your@email.com"
+              class="field">
+          </div>
+        </div>
+
+        <!-- Row: Phone + Wedding Date -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div>
+            <label class="block text-xs uppercase tracking-wider text-charcoal font-semibold mb-2">Phone Number *</label>
+            <input type="tel" name="phone" required autocomplete="tel" placeholder="(516) 000-0000"
+              class="field">
+          </div>
+          <div>
+            <label class="block text-xs uppercase tracking-wider text-charcoal font-semibold mb-2">Wedding Date *</label>
+            <input type="date" name="wedding_date" required class="field" style="color: #1A1A1E;">
+          </div>
+        </div>
+
+        <!-- Row: Venue + Guest Count -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div>
+            <label class="block text-xs uppercase tracking-wider text-charcoal font-semibold mb-2">Venue Name *</label>
+            <input type="text" name="venue" required placeholder="Your wedding venue"
+              class="field">
+          </div>
+          <div>
+            <label class="block text-xs uppercase tracking-wider text-charcoal font-semibold mb-2">Approximate Guest Count *</label>
+            <div class="select-wrap">
+              <select name="guest_count" required class="field">
+                <option value="" disabled selected>Select guest count</option>
+                <option>Under 50</option>
+                <option>50 – 100</option>
+                <option>100 – 150</option>
+                <option>150 – 200</option>
+                <option>200+</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Budget qualifier — most important filter -->
+        <div>
+          <label class="block text-xs uppercase tracking-wider text-charcoal font-semibold mb-2">
+            Our wedding films start at $2,400. Is this within your budget? *
+          </label>
+          <div class="select-wrap">
+            <select name="budget" id="budget-select" required class="field">
+              <option value="" disabled selected>Please select an option</option>
+              <option value="yes">Yes, absolutely</option>
+              <option value="maybe">Possibly — I'd like to learn about packages</option>
+              <option value="no">Not at this time</option>
+            </select>
+          </div>
+          <!-- Gentle disqualifier message -->
+          <p id="budget-msg" class="hidden mt-2 text-sm text-muted italic">
+            No problem at all! When your budget is ready, we'd love to work with you.
+            Feel free to follow us on Instagram in the meantime — we share new films regularly.
+          </p>
+        </div>
+
+        <!-- Referral source -->
+        <div>
+          <label class="block text-xs uppercase tracking-wider text-charcoal font-semibold mb-2">How did you find us? *</label>
+          <div class="select-wrap">
+            <select name="referral_source" required class="field">
+              <option value="" disabled selected>Please select</option>
+              <option>Facebook Ad</option>
+              <option>Instagram</option>
+              <option>Google Search</option>
+              <option>Friend or Family Referral</option>
+              <option>The Knot</option>
+              <option>WeddingWire</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Open-ended vision -->
+        <div>
+          <label class="block text-xs uppercase tracking-wider text-charcoal font-semibold mb-2">
+            Tell us about your wedding day vision
+            <span class="text-muted font-normal normal-case tracking-normal">(optional)</span>
+          </label>
+          <textarea name="vision" rows="4"
+            placeholder="Share anything you'd like us to know — your style, venue vibe, must-have moments, special requests..."
+            class="field resize-none"></textarea>
+        </div>
+
+        <button type="submit" id="submit-btn" class="btn-gold w-full py-4 tracking-widest">
+          Request My Free Consultation
+        </button>
+
+        <p class="text-stone-400 text-xs text-center leading-relaxed">
+          By submitting this form you agree to be contacted by Mystudionet Productions.
+          We respect your privacy and never share your information with third parties.
+        </p>
+
+      </form>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SAMPLE FILMS
+  ============================================================ -->
+  <section class="py-20 px-5 bg-cream">
+    <div class="max-w-5xl mx-auto">
+
+      <div class="text-center mb-14 reveal">
+        <p class="text-gold uppercase tracking-[0.22em] text-xs font-medium mb-4">Our Work</p>
+        <h2 class="font-serif text-3xl md:text-4xl text-charcoal mb-4">Recent Wedding Films</h2>
+        <div class="gold-line mx-auto mb-5"></div>
+        <p class="text-muted max-w-md mx-auto">Every story is different. Every film is crafted to feel like yours.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+        <!-- Film 1 — Yeliz & Zafer -->
+        <div class="reveal">
+          <div class="rounded-sm overflow-hidden shadow-xl mb-4" style="position:relative; padding-top:42.50%">
+            <iframe
+              style="position:absolute; top:0; left:0; width:100%; height:100%"
+              src="https://adilo.bigcommand.com/watch/zvnAdswf"
+              frameborder="0"
+              allowtransparency="true"
+              allowfullscreen
+              mozallowfullscreen
+              webkitallowfullscreen
+              oallowfullscreen
+              msallowfullscreen
+              scrolling="no"
+              loading="lazy">
+            </iframe>
+          </div>
+          <p class="font-serif text-lg text-charcoal">Yeliz &amp; Zafer</p>
+          <p class="text-muted text-sm">Long Island · 2022</p>
+        </div>
+
+        <!-- Film 2 — Kristen & Jackie -->
+        <div class="reveal">
+          <div class="rounded-sm overflow-hidden shadow-xl mb-4" style="position:relative; padding-top:56.25%">
+            <iframe
+              style="position:absolute; top:0; left:0; width:100%; height:100%"
+              src="https://adilo.bigcommand.com/watch/l4x4YRaE"
+              frameborder="0"
+              allowtransparency="true"
+              allowfullscreen
+              mozallowfullscreen
+              webkitallowfullscreen
+              oallowfullscreen
+              msallowfullscreen
+              scrolling="no"
+              loading="lazy">
+            </iframe>
+          </div>
+          <p class="font-serif text-lg text-charcoal">Kristen &amp; Jackie</p>
+          <p class="text-muted text-sm">Long Island · 2024</p>
+        </div>
+
+        <!-- Film 3 -->
+        <div class="reveal md:col-span-2 md:max-w-2xl md:mx-auto w-full">
+          <div class="rounded-sm overflow-hidden shadow-xl mb-4" style="position:relative; padding-top:56.25%">
+            <iframe
+              style="position:absolute; top:0; left:0; width:100%; height:100%"
+              src="https://video.mystudionet.com/watch/6BwiwtBH"
+              frameborder="0"
+              allowtransparency="true"
+              allowfullscreen
+              mozallowfullscreen
+              webkitallowfullscreen
+              oallowfullscreen
+              msallowfullscreen
+              scrolling="no"
+              loading="lazy">
+            </iframe>
+          </div>
+          <p class="font-serif text-lg text-charcoal">Heather &amp; Mike</p>
+          <p class="text-muted text-sm">Long Island · 2025</p>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-14 reveal">
+        <a href="#consultation" class="btn-gold">I Want a Film Like This</a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       COLLAGE STRIP DIVIDER
+  ============================================================ -->
+  <div class="w-full overflow-hidden" style="height: 220px;">
+    <img
+      src="collage.jpg"
+      alt="Wedding moments captured by Mystudionet Productions — Long Island"
+      style="width:100%; height:100%; object-fit:cover; object-position:center 30%;">
+  </div>
+
+
+  <!-- ============================================================
+       TESTIMONIALS
+  ============================================================ -->
+  <section class="py-20 px-5 bg-charcoal">
+    <div class="max-w-4xl mx-auto">
+
+      <div class="text-center mb-14 reveal">
+        <p class="text-gold uppercase tracking-[0.22em] text-xs font-medium mb-4">Real Brides</p>
+        <h2 class="font-serif text-3xl md:text-4xl text-white mb-4">What Our Brides Say</h2>
+        <div class="gold-line mx-auto"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+        <!--
+          ┌──────────────────────────────────────────────────┐
+          │  TESTIMONIAL 1 — replace with your bride's words │
+          │  Optionally uncomment the <img> for her photo    │
+          └──────────────────────────────────────────────────┘
+        -->
+        <div class="reveal bg-white/5 border border-white/10 p-8">
+          <div class="text-gold text-base mb-5">★★★★★</div>
+          <blockquote class="font-serif text-white text-lg italic leading-relaxed mb-6">
+            "Replace this with your first bride's testimonial. Keep it genuine and specific —
+            what did she feel when she watched the film for the first time?"
+          </blockquote>
+          <div class="flex items-center gap-4">
+            <!-- <img src="bride1.jpg" alt="Bride Name" class="w-11 h-11 rounded-full object-cover flex-shrink-0"> -->
+            <div>
+              <p class="text-white font-medium text-sm">Bride Name</p>
+              <p class="text-stone-400 text-xs mt-0.5">Married at Venue Name · 2024</p>
+            </div>
+          </div>
+        </div>
+
+        <!--
+          ┌──────────────────────────────────────────────────┐
+          │  TESTIMONIAL 2 — replace with your bride's words │
+          └──────────────────────────────────────────────────┘
+        -->
+        <div class="reveal bg-white/5 border border-white/10 p-8">
+          <div class="text-gold text-base mb-5">★★★★★</div>
+          <blockquote class="font-serif text-white text-lg italic leading-relaxed mb-6">
+            "Replace this with your second bride's testimonial. The more specific and emotional,
+            the more it converts."
+          </blockquote>
+          <div class="flex items-center gap-4">
+            <!-- <img src="bride2.jpg" alt="Bride Name" class="w-11 h-11 rounded-full object-cover flex-shrink-0"> -->
+            <div>
+              <p class="text-white font-medium text-sm">Bride Name</p>
+              <p class="text-stone-400 text-xs mt-0.5">Married at Venue Name · 2024</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       ABOUT KURSAD
+  ============================================================ -->
+  <section class="py-20 px-5 bg-cream">
+    <div class="max-w-4xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-14 items-center">
+
+        <!-- Photo -->
+        <div class="reveal">
+          <!--
+            Replace the grey box with:
+            <img src="kursad.jpg" alt="Kursad Yonet — Wedding Filmmaker" class="w-full max-w-sm mx-auto md:mx-0 object-cover shadow-xl">
+          -->
+          <div class="bg-stone-200 aspect-[4/5] w-full max-w-sm mx-auto md:mx-0 flex items-center justify-center text-stone-400 text-sm">
+            [ Add your photo here: kursad.jpg ]
+          </div>
+        </div>
+
+        <!-- Bio -->
+        <div class="reveal">
+          <p class="text-gold uppercase tracking-[0.22em] text-xs font-medium mb-4">The Filmmaker</p>
+          <h2 class="font-serif text-3xl text-charcoal mb-2">Kursad Yonet</h2>
+          <div class="gold-line mb-6"></div>
+          <p class="text-muted leading-relaxed mb-4">
+            I'm Kursad — founder of Mystudionet Productions and the filmmaker behind every film we create.
+            With over 8 years of experience shooting weddings across Long Island and the Tri-State area,
+            I've built a reputation for capturing the real moments: the ones that happen between the planned ones.
+          </p>
+          <p class="text-muted leading-relaxed mb-8">
+            When you watch your film years from now, I want you to feel everything — the nerves, the laughter,
+            the love. That's what I show up to do on your wedding day.
+          </p>
+          <a href="#consultation" class="btn-gold">Book a Call With Me</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FAQ
+  ============================================================ -->
+  <section class="py-20 px-5 bg-form-bg">
+    <div class="max-w-3xl mx-auto">
+
+      <div class="text-center mb-14 reveal">
+        <p class="text-gold uppercase tracking-[0.22em] text-xs font-medium mb-4">Got Questions?</p>
+        <h2 class="font-serif text-3xl md:text-4xl text-charcoal mb-4">Frequently Asked Questions</h2>
+        <div class="gold-line mx-auto"></div>
+      </div>
+
+      <div id="faq-list" class="divide-y divide-stone-200"></div>
+
+      <div class="text-center mt-14 reveal">
+        <p class="text-muted mb-6">Still have questions? We're happy to talk.</p>
+        <a href="#consultation" class="btn-gold">Get in Touch</a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FINAL CTA
+  ============================================================ -->
+  <section class="py-20 px-5 bg-charcoal text-center">
+    <div class="max-w-xl mx-auto reveal">
+      <p class="text-gold uppercase tracking-[0.22em] text-xs font-medium mb-6">Limited Dates Available</p>
+      <h2 class="font-serif text-3xl md:text-4xl text-white leading-snug mb-8">
+        Your wedding day is one story.<br>
+        <em class="text-gold">Let's make sure it's told.</em>
+      </h2>
+      <a href="#consultation" class="btn-gold">Check My Date Availability</a>
+      <p class="text-stone-500 text-sm mt-6">Films start at $2,400 · Long Island, NY &amp; surrounding areas</p>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="py-8 px-5 bg-charcoal border-t border-white/10">
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
+      <img src="logo.svg" alt="Mystudionet Productions" class="h-8 w-auto opacity-60">
+      <p class="text-stone-500 text-xs">
+        © 2025 Mystudionet Productions · Kursad Yonet, Wedding Filmmaker · Long Island, NY
+      </p>
+      <a href="mailto:hello@mystudionet.com" class="text-stone-500 text-xs hover:text-gold transition-colors">
+        hello@mystudionet.com
+      </a>
+    </div>
+  </footer>
+
+
+  <!-- ============================================================
+       JAVASCRIPT
+  ============================================================ -->
+  <script>
+
+    // ─── FAQ DATA ────────────────────────────────────────────────────────────────
+    const faqs = [
+      {
+        q: "What's included in your wedding film packages?",
+        a: "Every package includes full-day coverage (from getting ready through reception), professional color grading, licensed music, a cinematic highlight film, and a private online gallery. Specific deliverables and lengths vary by package — we'll walk you through everything on the consultation call."
+      },
+      {
+        q: "How far in advance should I book?",
+        a: "Most couples book 12–18 months in advance, especially for peak summer and fall dates on Long Island. If your wedding is sooner, reach out anyway — we occasionally have openings and love last-minute inquiries."
+      },
+      {
+        q: "How long until we receive our wedding film?",
+        a: "Your highlight film is typically delivered within 8–12 weeks after your wedding. We believe in taking the time to craft something truly beautiful rather than rushing through the edit."
+      },
+      {
+        q: "What is your filming style?",
+        a: "Cinematic documentary. I'm there to capture what's happening naturally — not to direct or stage moments. You'll look back and see yourselves, not a performance. Every shot is intentional, every edit serves the emotion."
+      },
+      {
+        q: "Can we choose our own music?",
+        a: "Yes. You can suggest songs and I'll do my best to incorporate them. All music is properly licensed for online sharing, so your film can live on YouTube, Instagram, or anywhere else without copyright restrictions."
+      },
+      {
+        q: "Do you travel outside of Long Island?",
+        a: "Absolutely. I cover all of New York, New Jersey, Connecticut, and the greater Tri-State area. For destination weddings further afield, travel fees apply — just mention it on your consultation call and we'll figure it out."
+      },
+      {
+        q: "What if something unexpected happens on our wedding day?",
+        a: "In the extremely unlikely event of an emergency, I have a vetted network of trusted filmmakers I can call on to ensure your date is covered. This has never happened — but your peace of mind matters, and you'll always have someone there."
+      },
+      {
+        q: "How do we receive the final film?",
+        a: "You'll get a private link to a beautifully designed online gallery where you can stream and download your film in full HD. The link never expires — your film is always accessible, forever."
+      },
+      {
+        q: "Is a deposit required to hold our date?",
+        a: "Yes — a 25% retainer is required to officially reserve your date. The remaining balance is due 30 days before your wedding. We accept all major credit cards, Zelle, and bank transfer."
+      },
+      {
+        q: "Do you shoot in 4K?",
+        a: "Yes. All footage is captured in cinematic 4K quality for maximum clarity and future-proofing. Your film will look just as stunning on screens that don't even exist yet."
+      }
+    ];
+
+    // Render FAQ
+    const faqList = document.getElementById('faq-list');
+    faqs.forEach(function(faq) {
+      const item = document.createElement('div');
+      item.className = 'faq-item';
+      item.innerHTML =
+        '<button onclick="toggleFaq(this)" class="w-full flex justify-between items-start gap-4 py-5 text-left">' +
+          '<span class="font-medium text-charcoal text-[0.95rem] leading-snug">' + faq.q + '</span>' +
+          '<span class="faq-icon text-gold text-xl leading-none flex-shrink-0 mt-0.5">+</span>' +
+        '</button>' +
+        '<div class="faq-answer">' +
+          '<p class="text-muted text-sm leading-relaxed pb-5 pr-8">' + faq.a + '</p>' +
+        '</div>';
+      faqList.appendChild(item);
+    });
+
+    function toggleFaq(btn) {
+      const item = btn.parentElement;
+      const answer = item.querySelector('.faq-answer');
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(function(el) {
+        el.classList.remove('open');
+        el.querySelector('.faq-answer').classList.remove('open');
+      });
+      if (!isOpen) {
+        item.classList.add('open');
+        answer.classList.add('open');
+      }
+    }
+
+
+    // ─── BUDGET QUALIFIER ────────────────────────────────────────────────────────
+    document.getElementById('budget-select').addEventListener('change', function() {
+      const msg = document.getElementById('budget-msg');
+      if (this.value === 'no') {
+        msg.classList.remove('hidden');
+      } else {
+        msg.classList.add('hidden');
+      }
+    });
+
+
+    // ─── FORM SUBMISSION ─────────────────────────────────────────────────────────
+    document.getElementById('lead-form').addEventListener('submit', async function(e) {
+      e.preventDefault();
+
+      const btn = document.getElementById('submit-btn');
+      const originalText = btn.textContent;
+      btn.textContent = 'Sending...';
+      btn.disabled = true;
+
+      const data = new FormData(this);
+
+      try {
+        const res = await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          body: data
+        });
+        const json = await res.json();
+
+        if (json.success) {
+          this.style.display = 'none';
+          const msg = document.getElementById('success-msg');
+          msg.classList.add('show');
+          msg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        } else {
+          btn.textContent = originalText;
+          btn.disabled = false;
+          alert('Something went wrong. Please try again or email us directly.');
+        }
+      } catch (err) {
+        btn.textContent = originalText;
+        btn.disabled = false;
+        alert('Connection error. Please try again.');
+      }
+    });
+
+
+    // ─── SCROLL REVEAL ───────────────────────────────────────────────────────────
+    const revealObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.reveal').forEach(function(el) {
+      revealObserver.observe(el);
+    });
+
+  </script>
+
+</body>
+</html>
