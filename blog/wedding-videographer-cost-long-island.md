@@ -9,7 +9,7 @@ Couples ask me this on almost every consultation call, usually in the first five
 ## The short answer
 On Long Island in 2026, most professional wedding videographers charge between **$2,000 and $7,500**. Below $2,000 you are usually looking at a side hustle or a student building a portfolio. Above $7,500 you are typically paying for large crews, same-day edits, or a big-name studio brand.
 
-My own films start at **$2,400 for 8 hours** of cinematic coverage, with a premium option of up to 12 hours for larger weddings. Every package includes professional color grading, licensed music, and a cinematic highlight film.
+My own films start at **$3,500 for 8 hours** of cinematic coverage, with a premium option of up to 12 hours for larger weddings. Every package includes professional color grading, licensed music, and a cinematic highlight film.
 
 ## What actually drives the price
 
@@ -37,5 +37,5 @@ Whatever you budget for video, book someone whose work makes you feel something.
 
 Mystudionet Productions films weddings across Suffolk County, Nassau County,
 the Hamptons and New Jersey. Cinematic documentary style, 300+ weddings
-filmed, packages from $2,400 for 8 hours of coverage. Free consultation:
+filmed, packages from $3,500 for 8 hours of coverage. Free consultation:
 https://wedding.mystudionet.com/#consultation

@@ -21,7 +21,7 @@ I say this as someone who deeply respects photographers, and works alongside gre
 - **People we lose.** This is the hardest one to write. For many couples, the wedding film ends up holding the last living footage of a grandparent. No one plans for that. The film just quietly does it.
 
 ## The real objections, answered honestly
-**"It is not in the budget."** A professional film on Long Island starts around $2,400. That is real money. But compare it to what it preserves against almost anything else on the budget sheet that will not exist in five years.
+**"It is not in the budget."** A professional film on Long Island starts around $3,500. That is real money. But compare it to what it preserves against almost anything else on the budget sheet that will not exist in five years.
 
 **"We will feel awkward on camera."** With the documentary style I shoot, there is no directing and no staging. Most couples tell me they forgot I was there until they saw the film.
 
@@ -39,5 +39,5 @@ In twenty years of doing this, I have never once heard a couple say they regrett
 
 Mystudionet Productions films weddings across Suffolk County, Nassau County,
 the Hamptons and New Jersey. Cinematic documentary style, 300+ weddings
-filmed, packages from $2,400 for 8 hours of coverage. Free consultation:
+filmed, packages from $3,500 for 8 hours of coverage. Free consultation:
 https://wedding.mystudionet.com/#consultation

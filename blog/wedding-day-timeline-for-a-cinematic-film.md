@@ -43,5 +43,5 @@ Every wedding is different, and I walk through this with each of my couples on t
 
 Mystudionet Productions films weddings across Suffolk County, Nassau County,
 the Hamptons and New Jersey. Cinematic documentary style, 300+ weddings
-filmed, packages from $2,400 for 8 hours of coverage. Free consultation:
+filmed, packages from $3,500 for 8 hours of coverage. Free consultation:
 https://wedding.mystudionet.com/#consultation
