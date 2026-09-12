@@ -200,6 +200,34 @@
       border: 0;
     }
 
+    /* Photo slideshow strip under the hero video */
+    .photo-strip {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.9rem 1.5rem;
+      background: #fff;
+      border: 1px solid #E6E2D9;
+      border-left: 2px solid #C9A96E;
+      text-decoration: none;
+      transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .photo-strip:hover {
+      background: #F3F1EC;
+      border-color: #DDD5C4;
+      border-left-color: #A8833F;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    }
+    .photo-strip .strip-arrow {
+      transition: transform 0.3s ease;
+      flex-shrink: 0;
+    }
+    .photo-strip:hover .strip-arrow { transform: translateX(4px); }
+
+    @media (max-width: 480px) {
+      .photo-strip { padding: 0.8rem 1rem; gap: 0.75rem; }
+    }
+
     /* Form inputs */
     .field {
       width: 100%;
@@ -360,6 +388,22 @@
     <p class="text-center text-muted text-sm mt-4 font-light italic">
       Press play — this is what your wedding day could look like
     </p>
+
+    <!-- Photo slideshow strip (opens SmugMug slideshow in a new tab) -->
+    <div class="max-w-4xl mx-auto mt-6">
+      <a href="https://mystudionet.smugmug.com/frame/slideshow?key=qKQ4qs&amp;speed=3&amp;transition=fade&amp;autoStart=1&amp;captions=0&amp;navigation=0&amp;playButton=0&amp;randomize=0&amp;transitionSpeed=2"
+         target="_blank"
+         rel="noopener"
+         class="photo-strip"
+         aria-label="View the full wedding photography slideshow (opens in a new tab)">
+        <span class="text-gold text-sm leading-none" aria-hidden="true">&#9672;</span>
+        <span class="flex-1 text-left">
+          <span class="block text-charcoal uppercase tracking-[0.2em] text-xs font-medium">Wedding Photography</span>
+          <span class="block text-muted text-sm font-light mt-1">View the full photo slideshow</span>
+        </span>
+        <span class="strip-arrow text-gold text-lg leading-none" aria-hidden="true">&rarr;</span>
+      </a>
+    </div>
   </section>
 
 
