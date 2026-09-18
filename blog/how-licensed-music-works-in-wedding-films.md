@@ -7,7 +7,7 @@ Updated: September 17, 2026
 
 ## Quick answer
 
-Licensed music in a wedding film means the filmmaker paid for the legal right to use a specific track in your finished video. Without proper licensing, platforms like YouTube and Instagram can mute, block or remove your film the moment you share it. Mystudionet Productions includes fully licensed music in every package, so your film can be posted anywhere and stays protected for good.
+Licensed music in a wedding film means the filmmaker paid for the legal right to use a specific track in your finished video. Without proper licensing, platforms like YouTube and Instagram can mute, block or remove your film the moment you share it. Mystudionet Productions includes fully licensed music in every package, so your film can be shared on YouTube, Instagram and Facebook without being muted or taken down.
 
 I get asked about music on almost every consultation call. Usually the couple has seen a friend's wedding film on YouTube with a gray mute bar across the whole thing, or they posted a clip on Instagram and woke up to silence. They come to me and ask: can we use our song? The answer is sometimes yes, often no, and always more complicated than it sounds. Let me explain what is actually going on.
 
@@ -21,7 +21,7 @@ Your videographer editing that moment into a film and uploading it somewhere is 
 
 It means your filmmaker secured a synchronization license, commonly called a sync license, which gives them the legal right to pair a specific piece of music with your video footage. For major commercial recordings there is also a master use license covering that particular recorded version of the song. Both are required to use a well-known track legally in a film. Both cost real money and require negotiation with a publishing house and a record label separately.
 
-Most professional wedding filmmakers, including me, work primarily with music libraries. These are catalogs of tracks written specifically for licensing: composers who create music for film and advertising rather than for radio. The tracks are already pre-cleared, meaning the sync and master rights are bundled together and available at a fixed cost. This is what I mean when I say licensed music is included in every Mystudionet Productions package. The music in your film is properly cleared, you can post it on any platform, and that protection does not expire.
+Most professional wedding filmmakers, including me, work primarily with music libraries. These are catalogs of tracks written specifically for licensing: composers who create music for film and advertising rather than for radio. The tracks are already pre-cleared, meaning the sync and master rights are bundled together and available at a fixed cost. This is what I mean when I say licensed music is included in every Mystudionet Productions package. The music in your film is properly cleared for the way it is delivered, so you can share it online without worrying about a mute or a takedown.
 
 ## Does this mean we cannot have our actual song in the film?
 
@@ -29,13 +29,13 @@ Not necessarily, but it depends on the song. For some couples, a specific track 
 
 Some artists and labels make their music available through licensing platforms at set rates. A few are genuinely affordable. Others cost hundreds or thousands of dollars for a single use. Some artists do not license for commercial video at all, regardless of what you are willing to pay. Independent artists on smaller labels are often easier to clear than major label recordings, and sometimes the independent version of a sound you love is actually a better fit for the film anyway.
 
-What I ask couples to do is tell me the songs that matter to them before the edit begins. I will give an honest read on what is possible and what it costs, and I will find a licensed alternative that carries the same feeling if the original track is out of reach. I have been doing this for more than 20 years and across 300+ weddings spanning the North Shore, South Shore and the East End. I know that the right music makes a film. Sometimes the right music is a song you have never heard before.
+What I ask couples to do is tell me the songs that matter to them before the edit begins. I will tell you honestly what is realistic, and if the original track is out of reach we look together for a licensed alternative that carries the same feeling. I have been doing this for more than 20 years and across 300+ weddings spanning the North Shore, South Shore and the East End. I know that the right music makes a film. Sometimes the right music is a song you have never heard before.
 
 ## What happens if a videographer uses unlicensed music?
 
-Your film is at risk on every platform that runs content detection, which today includes all of them. I have watched this play out. A couple shares their highlight film on YouTube. Within 24 hours the audio is muted. They go back to their filmmaker, who says something noncommittal and then goes quiet. The couple is left with a silent film and no real recourse.
+Your film is at risk on every platform that runs content detection, which today includes all of them. This is how it usually plays out. A couple shares their highlight film on YouTube. Within a day the audio is muted. They go back to their filmmaker, who says something noncommittal and then goes quiet. The couple is left with a silent film and no real recourse.
 
-The thing couples do not always realize is that private sharing does not protect them either. Uploading a file to YouTube, even as an unlisted or password-protected video, still runs it through Content ID before anyone can watch it. Unlicensed music gets flagged there too. Private sharing is not a workaround for licensing; it is just a different distribution setting on the same platform infrastructure.
+The thing couples do not always realize is that private sharing does not protect them either. Uploading a file to YouTube as an unlisted video still runs it through Content ID, and Vimeo and Facebook run similar checks. Unlicensed music can get flagged there too. Private sharing is not a reliable workaround for licensing; it is just a different privacy setting on the same platform.
 
 This is one of the questions I always tell couples to ask any videographer before signing anything: is your music fully licensed for online distribution? If the answer is vague, treat it as a no.
 
@@ -57,11 +57,11 @@ A synchronization license is a legal agreement that gives a filmmaker the right 
 
 ### Does the music license in my wedding film expire?
 
-It depends on the license terms. Music library licenses used by professional filmmakers are typically perpetual for the specific use, meaning your film stays protected as long as it is distributed the way the license covers. This is one reason why working with a filmmaker who uses reputable licensed libraries matters: the protection does not have an expiration date on it.
+It depends on the license terms. Music library licenses used by professional filmmakers are typically perpetual for the specific use, meaning the music stays cleared for your film as long as it is shared the way the license covers. This is one reason why working with a filmmaker who uses reputable licensed libraries matters: you should not have to think about it again.
 
 ### What if we only want to share our wedding film privately and not post it publicly?
 
-Sharing a link privately on YouTube or Vimeo still runs the file through content detection systems before it becomes accessible. Unlicensed music can still be flagged even on unlisted or password-protected videos. Private sharing is not a workaround for licensing. The only genuinely safe approach is to use properly licensed music from the start.
+Sharing a link privately on YouTube or Vimeo usually still runs the file through content detection. Unlicensed music can be flagged even on unlisted videos. Private sharing is not a reliable workaround for licensing. The only genuinely safe approach is to use properly licensed music from the start.
 
 ## Keep reading
 
