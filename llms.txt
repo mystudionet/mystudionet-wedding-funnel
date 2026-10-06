@@ -9,6 +9,7 @@
 ## Pages
 
 - [Home](https://wedding.mystudionet.com/): wedding film portfolio, packages, FAQ and consultation booking
+- [Wedding Photography](https://wedding.mystudionet.com/photography) (https://wedding.mystudionet.com/photography.md): wedding photography packages from $2,500, engagement session in every package, albums from $3,500
 - [The Wedding Journal](https://wedding.mystudionet.com/blog/) (https://wedding.mystudionet.com/blog/index.md): advice articles for couples
 
 ## Articles
